@@ -49,7 +49,7 @@ public class NetflixFile {
 
     public void addStatistics() {
 
-        File directory = new File("NetflixNChill/src/main/java/se/nackademin/Nfiles/Statistic");
+        File directory = new File("./Nfiles/Statistic");
         if (!directory.exists()) {
             directory.mkdir();
         }
