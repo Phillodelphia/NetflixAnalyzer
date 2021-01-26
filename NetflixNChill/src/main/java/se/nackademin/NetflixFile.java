@@ -44,7 +44,7 @@ public class NetflixFile {
                     Collections.reverse(titles.get(K));
                 });
             }
-        }
+        } catch (Exception e) {e.getStackTrace();}
     }
 
     public void addStatistics() {
